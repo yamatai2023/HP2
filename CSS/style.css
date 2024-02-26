@@ -217,6 +217,10 @@ margin-top: 10px;
     border-radius: 50%;
     object-fit: cover;
     border: solid 0.5px black;
+    transition-duration: 0.5s; /*変化の時間*/
+}
+.works_img:hover {
+    transform: scale(1.1);
 }
 .modaal-tittle {
     text-align: center;
