@@ -19,7 +19,7 @@ element,style {
 section {
     width: 100%;
     box-sizing: border-box;
-    margin: 9vh auto;
+    margin: 7vh auto;
     padding: 0 7vw;  
 }
 .section_tittle {
@@ -30,7 +30,7 @@ section {
     font-weight: bold;
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
 }
 .tittle,#Design span,#Event span{
     font-size: 1.8rem;
@@ -81,7 +81,7 @@ li a {
     gap: 4%;
 }
 #skill,#qualification {
-    margin-top: 30px;
+    margin-top: 2vh;
 }
 #about img,#skill {
     width: 46%;
@@ -252,10 +252,13 @@ margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.incharge{
     margin-top: 10px;
 }
 .text {
     margin-top: 20px;
+    line-height: 30px;
 }
 
 /* modaal 設定 */
@@ -284,7 +287,9 @@ margin-top: 10px;
 
 /* contact */
 
-
+#contact_wrap {
+    line-height: 30px;
+}
 /* footer */
 footer {
     text-align: center;
