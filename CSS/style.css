@@ -253,8 +253,8 @@ margin-top: 10px;
     flex-direction: row;
     justify-content: space-between;
 }
-.incharge{
-    margin-top: 10px;
+.incharge {
+    margin-top: 10px 
 }
 .text {
     margin-top: 20px;
